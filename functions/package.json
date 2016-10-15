@@ -1,0 +1,17 @@
+{
+  "name": "functions",
+  "description": "Firebase Functions",
+  "dependencies": {
+    "firebase": "^3.1",
+    "firebase-functions": "https://storage.googleapis.com/firebase-preview-drop/node/firebase-functions/firebase-functions-preview.latest.tar.gz",
+    "github": "^5.2.1",
+    "rxjs": "^5.0.0-rc.1"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.3"
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "compile:watch": "tsc -w -p ."
+  }
+}
